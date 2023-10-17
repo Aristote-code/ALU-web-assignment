@@ -172,3 +172,55 @@ main > article:nth-child(2) > section:nth-child(3) > div > div{
     justify-content: center;
     gap: 1.25rem;
 }
+
+main > article:nth-child(2) > section:nth-child(4){
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 3.1875rem;
+}
+
+
+main > article:nth-child(2) > section:nth-child(4) h2{
+    color: var(--foundation-blue-blue-200, #67768b);
+    margin: 0;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.35rem */
+}
+
+main > article:nth-child(2) > section:nth-child(4) h5{
+    color: var(--foundation-blue-blue-600, #00204E);
+    margin: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+main > article:nth-child(2) > section:nth-child(4) p{
+    color: var(--foundation-blue-blue-400, #334F78);
+    margin: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.2rem */
+}
+
+main > article:nth-child(2) > section:nth-child(4) h4{
+    color: var(--foundation-blue-blue-600, #00204E);
+    margin: 0;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 0.825rem */
+    border-radius: 0.1875rem;
+    border: 1px solid var(--foundation-blue-blue-400, #334F78);
+    background: var(--foundation-green-green-200, #C0EEEE);
+    display: flex;
+    padding: 0.375rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+}
