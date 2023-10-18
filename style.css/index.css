@@ -399,6 +399,121 @@ main > article:nth-child(2) > p{
     justify-content: center;
 }
 
-@media screen and (min-width: 481px){
+@media screen and (max-width: 481px){
+    main{
+        margin: 0rem;
+    }
+    main > article:nth-child(1) {
+        position: fixed !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+        left: 6.20rem;
+        top: 3%;
+    }
     
+    main > article:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        padding: 1rem;
+    }
+
+    main > article:nth-child(2) > section:nth-child(1) > div:nth-child(2){
+        gap: 1.25rem !important;
+    }
+    
+    main > article:nth-child(2) > section:nth-child(1) > div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem !important;
+    }
+
+    main > article:nth-child(2) > section:nth-child(1) > div:nth-child(3) button:nth-child(1){
+        padding: 0.8rem 2.369rem !important;
+    }
+
+    main > article:nth-child(2) > section:nth-child(1) > div:nth-child(3) h4{
+        margin: 0;
+    }
+
+    main > article:nth-child(2) > section:nth-child(2){
+        flex-direction: column;
+        margin: 0;
+    }
+
+    main > article:nth-child(2) > section:nth-child(2)  p{
+        max-width: 300px;
+        white-space: wrap; 
+    }
+
+    main > article:nth-child(2) > section:nth-child(3){
+        flex-direction: column;
+    }
+
+    main > article:nth-child(2) > section:nth-child(3) > div > div{
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+    
+    main > article:nth-child(2) > section:nth-child(3) > div > div p{
+        max-width: 300px;
+        white-space: wrap; 
+    }
+    
+    main > article:nth-child(2) > section:nth-child(3) > div > div  h4:nth-child(4){
+        display: none;
+    }
+
+    main > article:nth-child(2) > section:nth-child(4){
+        flex-direction: column;
+    }
+
+    main > article:nth-child(2) > section:nth-child(4) > div > div{
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    main > article:nth-child(2) > section:nth-child(4) > div > div p{
+        max-width: 300px;
+        white-space: wrap; 
+    }
+
+    main > article:nth-child(2) > section:nth-child(4) > div > div  h4:nth-child(4){
+        display: none;
+    }
+
+    main > article:nth-child(2) > section:nth-child(5) > div{
+        flex-direction: column;
+    }
+
+    main > article:nth-child(2) > section:nth-child(5) > div > div{
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    main > article:nth-child(2) > section:nth-child(6) > div:nth-child(2) > div{
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: start !important;
+    }
+    
+    main > article:nth-child(2) > section:nth-child(6) > div button:nth-child(1){
+        padding: 0.8rem 2.7rem !important;
+    }
+    main > article:nth-child(2) > section:nth-child(6) > div button:nth-child(2){
+        padding: 0.8rem 3.369rem !important;
+    }
+    main > article:nth-child(2) > section:nth-child(6) > div button:nth-child(3){
+        padding: 0.8rem 2.369rem !important;
+    }
+
+    main > article:nth-child(2) > section:nth-child(6) > div h4{
+        margin: 1.5rem;
+    }
+
+    main > article:nth-child(2) > section:nth-child(6) > div img{
+        display: none;
+    }
 }
