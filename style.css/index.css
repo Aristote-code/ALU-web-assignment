@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -300,6 +304,7 @@ main > article:nth-child(2) > section:nth-child(6) p{
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 1.05rem */
+    
 }
 
 main > article:nth-child(2) > section:nth-child(6) h5{
@@ -332,4 +337,68 @@ main > article:nth-child(2) > section:nth-child(6) > div:nth-child(2) button{
     border-radius: 0.375rem;
     border: 3px solid var(--foundation-blue-blue-400, #334F78);
     background-color: transparent;
+}
+
+main > article:nth-child(2) > section:nth-child(6) > div:nth-child(2) > div:nth-child(3) h3{
+    color: var(--foundation-blue-blue-400, #334F78);
+    display: flex;
+    padding: 0.9375rem 12.5rem 0.9375rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: -0.375rem;
+    border-radius: 0.375rem;
+    border: 0px solid var(--foundation-blue-blue-100, #B0BBCB);
+    background: var(--foundation-blue-blue-50, #E6E9EE);
+}
+
+main > article:nth-child(2) > section:nth-child(6) > div:nth-child(2) > div:nth-child(4) h3{
+    color: var(--foundation-blue-blue-400, #334F78);
+    display: flex;
+    padding: 1.8125rem 33.125rem 8.5625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: -0.375rem;
+    border-radius: 0.375rem;
+    border: 0px solid var(--foundation-blue-blue-100, #B0BBCB);
+    background: var(--foundation-blue-blue-50, #E6E9EE);
+}
+
+main > article:nth-child(2) > section:nth-child(6) > div:nth-child(2) > div:nth-child(5) button{
+    color: var(--foundation-blue-blue-400, #334F78);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 1.05rem */
+    display: flex;
+    padding: 0.9375rem 15.4rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    border: 3px solid var(--foundation-blue-blue-400, #334F78);
+    background-color: transparent;
+}
+
+main > article:nth-child(2) > section:nth-child(6){
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 1.44rem;
+}
+
+main > article:nth-child(2) > p{
+    color: var(--foundation-blue-blue-600, #00204E);
+    margin: 0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 1.35rem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 481px){
+    
 }

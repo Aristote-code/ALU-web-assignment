@@ -11,15 +11,15 @@
 <body>
     <main>
         <article class="side-menu">
-            <img src="images/icon/home.svg" alt="">
-            <img src="images/icon/work.svg" alt="">
-            <img src="images/icon/about.svg" alt="">
-            <img src="images/icon/experience.svg" alt="">
-            <img src="images/icon/chat.svg" alt="">
-            <img src="images/icon/softwares.svg" alt="">
+            <a href="#home"><img src="images/icon/home.svg" alt=""></a>
+            <a href="#about"><img src="images/icon/about.svg" alt=""></a>
+            <a href="#work"><img src="images/icon/work.svg" alt=""></a>
+            <a href="#experience"><img src="images/icon/experience.svg" alt=""></a>
+            <a href="#softwares"><img src="images/icon/softwares.svg" alt=""></a>
+            <a href="#chat"><img src="images/icon/chat.svg" alt=""></a>
         </article>
         <article>
-            <section>
+            <section id="home">
                 <div style="display: flex;
                             flex-direction: column;
                             align-items: center;">
@@ -59,7 +59,7 @@
                     </button>
                 </div>
             </section>
-            <section style="display: flex;
+            <section id="work" style="display: flex;
                             align-items: start;
                             justify-content: center;
                             gap: 2.81rem;">
@@ -77,7 +77,7 @@
                         a reputation for delivering exceptional results.</p>
                 </div> 
             </section>
-            <section>
+            <section id="about">
                 <h6>Work</h6>
                 <div style="display: flex;
                             flex-direction: column;
@@ -199,7 +199,7 @@
                     </div>
                 </div>  
             </section>
-            <section >
+            <section id="experience">
                 <H6>Experience</H6>
                 <div style="display: flex;
                             flex-direction: column;
@@ -276,7 +276,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="softwares">
                 <h4>Testimonials</h4>
                 <div style="display: flex;
                             gap: 1.25rem;">
@@ -308,7 +308,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="chat">
                 <div>
                     <h6>Contact</h6>
                     <h5>Lets talk about working together</h5>
@@ -318,7 +318,10 @@
                         <p>Available for new opportunities</p>
                     </div>
                 </div>
-                <div style="display: flex;
+                <div>
+                    <div style="display: flex;
+                            justify-content: center;
+                            align-items: center;
                             gap: 0.62rem;">
                     <button>
                         <h4 style="margin: 0;">Book call</h4>
@@ -333,11 +336,34 @@
                         <img src="images/icon/copy.svg" alt="">
                     </button>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div style="display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 1rem;">
+                    <img src="images/Line 73.svg" alt="">
+                    <h4>or</h4>
+                    <img src="images/Line 73.svg" alt="">
+                </div>
+                <div style="display: flex;
+                            gap: 1.5rem;">
+                    <h3>Your name</h3>
+                    <h3>Your email</h3>
+                </div>
+                <div>
+                    <h3>Your name</h3>
+                </div>
+                <div>
+                    <button>
+                        <h4 style="margin: 0;">Send message</h4>
+                        <img src="images/icon/send.svg" alt="">
+                    </button>
+                </div>
+                </div>
             </section>
+            <p>
+                @ 2023 portfolio  by Aristote
+            </p>
+            <hr>
         </article>
     </main>
 </body>
